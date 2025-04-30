@@ -9,6 +9,8 @@ const SERVER_PRIVATE_KEY = process.env.SERVER_PRIVATE_KEY;
 const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
 const RPC_URL = process.env.RPC_URL;
 
+console.log("RPC_URL", RPC_URL);
+
 if (!SERVER_PRIVATE_KEY || !CONTRACT_ADDRESS || !RPC_URL) {
     throw new Error("Missing required environment variables. Please check your .env file");
 }

@@ -1,0 +1,47 @@
+.boss-list {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.boss-list h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.boss-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.boss-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.boss-card:hover {
+    transform: translateY(-5px);
+}
+
+.boss-card h3 {
+    margin: 0 0 1rem 0;
+    color: #2c3e50;
+}
+
+.boss-card p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.boss-card .creator {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+} 
